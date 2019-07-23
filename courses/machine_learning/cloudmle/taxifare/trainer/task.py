@@ -80,7 +80,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--min_eval_frequency',
         help = 'Seconds between evaluations',
-        default = 300,
+        default = 60,
         type = int
     )
 
